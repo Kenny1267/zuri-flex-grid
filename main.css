@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Big Shoulders Display";
+}
+
+main svg {
+  margin: 1rem;
+}
+
+.first-content {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.third-header {
+  color: hsl(0, 0%, 95%);
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 1rem;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 1px solid silver;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.button:hover,
+.button:active {
+  background-color: red;
+  cursor: pointer;
+  color: hsl(0, 0%, 95%);
+}
+
+.first-content button {
+  color: hsl(31, 77%, 52%);
+}
+
+.second-content {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.second-content button {
+  color: hsl(184, 100%, 22%);
+}
+
+.third-content {
+  background: hsl(179, 100%, 13%);
+}
+
+.third-content button {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 375px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+}
